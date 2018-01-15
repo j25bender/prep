@@ -1,34 +1,17 @@
-.createCard {
+.searchContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100vw;
-    height: 45vh;
-    background-color: #E8F4F4;
     text-align: center;
 }
 
-.newTitle,
-.newBody,
-.save {
+#searchInput {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     width: 70vw;
     height: 30px;
     padding: 0;
-}
-
-.appTitle {
-    color: #4BA59E;
-}
-
-span {
-    color: #6D6E71;
-}
-
-button {
-    background-color: #4BA59E;
-    color: white;
 }
