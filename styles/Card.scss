@@ -1,6 +1,19 @@
-.card {
-    width: 3rem;
-    height: 1rem;
-    background-color: lightblue;
-    border: 1px solid black;
+.cardList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    border: 0.01rem solid lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70vw;
+    height: 30px;
+    padding: 10px;
+}
+
